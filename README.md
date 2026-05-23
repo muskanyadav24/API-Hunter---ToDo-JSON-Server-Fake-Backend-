@@ -68,6 +68,16 @@ Start both the React web application and the JSON-Server mock backend concurrent
 npm run dev:all
 ```
 
+**To start the frontend separately:**
+```bash
+npm run dev
+```
+
+**To start the backend separately:**
+```bash
+npm run server
+```
+
 Once running:
 - **Client Application**: Open [http://localhost:5175/](http://localhost:5175/) in your browser.
 - **Local API Endpoint**: The backend serves task entries at [http://localhost:5000/tasks](http://localhost:5000/tasks).
